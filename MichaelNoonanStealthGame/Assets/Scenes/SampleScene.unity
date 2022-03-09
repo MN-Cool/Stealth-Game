@@ -999,7 +999,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151462555}
   m_LocalRotation: {x: -0.258819, y: 0, z: 0, w: 0.9659259}
-  m_LocalPosition: {x: 0, y: 6.5, z: -5}
+  m_LocalPosition: {x: 0.019803736, y: 6.5, z: -4.999961}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1227553266}
@@ -4419,7 +4419,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.025370404, y: -0.000000010068864, z: 0.000000008851313, w: 0.99967813}
-  m_LocalPosition: {x: 0, y: 6.5, z: -5}
+  m_LocalPosition: {x: 0.019803736, y: 6.5, z: -4.999961}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8342,6 +8342,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 224280991503023752, guid: 8858ffbc4e77b5244bc32b178e8b5065, type: 3}
+      propertyPath: targetObject
+      value: 
+      objectReference: {fileID: 494775758}
     - target: {fileID: 224280991503023755, guid: 8858ffbc4e77b5244bc32b178e8b5065, type: 3}
       propertyPath: m_Name
       value: Boss
@@ -8360,7 +8364,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224280991503023759, guid: 8858ffbc4e77b5244bc32b178e8b5065, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 100
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 224280991503023759, guid: 8858ffbc4e77b5244bc32b178e8b5065, type: 3}
       propertyPath: m_LocalRotation.w
