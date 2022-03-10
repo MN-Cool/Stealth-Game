@@ -81,6 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b50ab8a8ed8b1c54eaba14e1e89f7aac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isAttacking: 0
   targetObject: {fileID: 2228435418475058748, guid: 162328dec388af74f88a54937f484f76, type: 3}
 --- !u!1 &363364114419250828
 GameObject:
@@ -427,6 +428,8 @@ GameObject:
   - component: {fileID: 1573787339496746695}
   - component: {fileID: 6410458162996807987}
   - component: {fileID: 1742662562303518794}
+  - component: {fileID: 1104832894672593218}
+  - component: {fileID: 9206498457115691704}
   m_Layer: 0
   m_Name: BossBody
   m_TagString: Untagged
@@ -502,6 +505,34 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1104832894672593218
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499362089254545521}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5, z: 3}
+  m_Center: {x: 0, y: -0.25, z: -2}
+--- !u!114 &9206498457115691704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499362089254545521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f577636fd731d42935ba29fa1afde9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnim: {fileID: 0}
+  doorGoal: {fileID: 0}
+  gm: {fileID: 0}
 --- !u!1 &2063494562971319171
 GameObject:
   m_ObjectHideFlags: 0
