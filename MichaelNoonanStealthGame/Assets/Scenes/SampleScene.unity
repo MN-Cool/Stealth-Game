@@ -1906,7 +1906,7 @@ MonoBehaviour:
 
 
     Sneak up behind enemies and
-    attack them when they are not looking. Defeating all three should open the door.'
+    attack them when they are not looking. Defeating all four should open the door.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8119,11 +8119,11 @@ PrefabInstance:
       objectReference: {fileID: 1452244529}
     - target: {fileID: 463653991711729805, guid: 162328dec388af74f88a54937f484f76, type: 3}
       propertyPath: m_FollowOffset.y
-      value: 4.5
+      value: -0.8834062
       objectReference: {fileID: 0}
     - target: {fileID: 463653991711729805, guid: 162328dec388af74f88a54937f484f76, type: 3}
       propertyPath: m_FollowOffset.z
-      value: -2.5
+      value: -7.575249
       objectReference: {fileID: 0}
     - target: {fileID: 2228435418475058748, guid: 162328dec388af74f88a54937f484f76, type: 3}
       propertyPath: m_RootOrder
@@ -8175,11 +8175,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5239359587228643637, guid: 162328dec388af74f88a54937f484f76, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.7274276
       objectReference: {fileID: 0}
     - target: {fileID: 5239359587228643637, guid: 162328dec388af74f88a54937f484f76, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.50687075
       objectReference: {fileID: 0}
     - target: {fileID: 5239359587228643637, guid: 162328dec388af74f88a54937f484f76, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8223,19 +8223,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6782947582716618317, guid: 162328dec388af74f88a54937f484f76, type: 3}
       propertyPath: m_FollowOffset.y
-      value: 4.5
+      value: -0.8834062
       objectReference: {fileID: 0}
     - target: {fileID: 6782947582716618317, guid: 162328dec388af74f88a54937f484f76, type: 3}
       propertyPath: m_FollowOffset.z
-      value: -2.5
+      value: -7.575249
       objectReference: {fileID: 0}
     - target: {fileID: 8103141639736396003, guid: 162328dec388af74f88a54937f484f76, type: 3}
       propertyPath: m_FollowOffset.y
-      value: 4.5
+      value: -0.8834062
       objectReference: {fileID: 0}
     - target: {fileID: 8103141639736396003, guid: 162328dec388af74f88a54937f484f76, type: 3}
       propertyPath: m_FollowOffset.z
-      value: -2.5
+      value: -7.575249
       objectReference: {fileID: 0}
     - target: {fileID: 9061231715183577547, guid: 162328dec388af74f88a54937f484f76, type: 3}
       propertyPath: m_LocalPosition.y
