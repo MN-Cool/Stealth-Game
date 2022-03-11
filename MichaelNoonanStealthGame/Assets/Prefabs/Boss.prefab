@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isAttacking: 0
-  targetObject: {fileID: 2228435418475058748, guid: 162328dec388af74f88a54937f484f76, type: 3}
+  targetObject: {fileID: 0}
 --- !u!1 &363364114419250828
 GameObject:
   m_ObjectHideFlags: 0

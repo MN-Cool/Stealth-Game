@@ -1517,7 +1517,7 @@ MonoBehaviour:
   isVisible: 0
   isAudible: 0
   isClose: 0
-  targetObject: {fileID: 2228435418475058748, guid: 162328dec388af74f88a54937f484f76, type: 3}
+  targetObject: {fileID: 0}
   waypoints:
   - {fileID: 0}
   - {fileID: 0}
